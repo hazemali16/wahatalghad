@@ -9,6 +9,15 @@ html {
 body {
   direction: rtl;
 }
+
+::-webkit-scrollbar {
+  background-color: none;
+  width: 7px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #2f8a8a;
+}
+
 .hero {
   background-image: url('./images/DSC09556.jpg');
   background-size: cover;
