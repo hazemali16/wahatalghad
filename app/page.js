@@ -15,8 +15,6 @@ export default function Home() {
 
     window.onscroll = () => {
       if (window.scrollY >= services.offsetTop - 600) {
-        // services.classList.remove("opacity-0")
-        // services.classList.remove("translate-y-10")
         for (let index = 0; index < services.children[0].children.length; index++) {
           services.children[0].children[index].classList.remove("opacity-0")
           services.children[0].children[index].classList.remove("translate-y-10")
@@ -39,12 +37,12 @@ export default function Home() {
   }, [])
   return (
     <div>
-    <NavBar />
-    <Hero/>
-    <Services />
-    <Gallery />
-    <Hopes />
-    <Footer />
+    //<NavBar />
+    //<Hero/>
+    //<Services />
+    //<Gallery />
+    //<Hopes />
+    //<Footer />
     </div>
   );
 }
