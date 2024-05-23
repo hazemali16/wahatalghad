@@ -36,13 +36,14 @@ export default function Home() {
     
   }, [])
   return (
-    <div>
+    "error"
+    //<div>
     //<NavBar />
     //<Hero/>
     //<Services />
     //<Gallery />
     //<Hopes />
     //<Footer />
-    </div>
+    //</div>
   );
 }
